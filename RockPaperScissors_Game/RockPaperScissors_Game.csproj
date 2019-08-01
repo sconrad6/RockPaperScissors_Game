@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Roshamb.cs" />
+    <Compile Remove="Roshambo.cs" />
+    <Compile Remove="RoshamboManager.cs" />
+    <Compile Remove="RoshamboResult.cs" />
+  </ItemGroup>
+</Project>
